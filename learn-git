@@ -39,12 +39,15 @@ If we need we can add multiple origin like
 git remote add origin1 https:/link
 Like origin we can use any name
 
+
+To push changes on a branch we use
+"git push origin(can be any link name) branch_name"
+
 To create a new branch we can use 
-"git branch name"
+"git branch branch-name"
 
-
-
-
+To change HEAD to different Branch
+"git checkout branch-name"
 
 
 
