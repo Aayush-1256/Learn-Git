@@ -22,9 +22,34 @@ git reset hashcode of commit
 ex-> git reset 9ef47a7e2776afec4d19f14e2993792b4c76c03a
 
 After this we can use "git stash" to make it as it was before
-After this use git stash clear to empty stash
+stash is like some directory in backend where it store this stuff
+We can use "git stash pop" to change files to what we stashed
+After this use "git stash clear" to empty stash
 
 Commits are build on top of one another we can't remove from middle
+
+
+Now attach your Github repo with this folder we can use
+"git remote add origin https://link"
+remote means working with url
+add means adding a url
+origin means name of url
+
+If we need we can add multiple origin like
+git remote add origin1 https:/link
+Like origin we can use any name
+
+To create a new branch we can use 
+"git branch name"
+
+
+
+
+
+
+
+
+
 
 
 
