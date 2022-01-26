@@ -64,6 +64,26 @@ It will automatically as you to create a pull request for this branch on github 
 Remenber with one branch you can have one pull request
 
 
+Removing a commit from Pull request
+To remove a commit we can same as earlier 
+"git reset hashcode"
+"git stash"
+"git add ."
+"git commit -m 'message' " 
+"git push origin branch-name -f "
+Now we have to force the change on pull request'
+
+
+Now if our pull request is accepted then it means
+Our main branch is behind than the one we fork
+To make them in sync we use
+"git pull upstream(link-name-main-repo) master(our-master-branch)"
+
+
+
+
+
+
 
 
 
