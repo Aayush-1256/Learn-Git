@@ -22,9 +22,11 @@ git reset hashcode of commit
 ex-> git reset 9ef47a7e2776afec4d19f14e2993792b4c76c03a
 
 After this we can use "git stash" to make it as it was before
-use git stash clear to empty stash
+After this use git stash clear to empty stash
 
 Commits are build on top of one another we can't remove from middle
+
+
 
 
 
