@@ -1,0 +1,13 @@
+git status -> Tells us about the untracked files
+
+git add . -> tells git to (make file tracked)add all files
+
+instead of . we can also use file name we want to add
+
+git commit -m "Message" -> it is used to commit files to repo with a message
+
+
+If we add(git add name.txt) a file we don't want we can use
+git restore --staged filename
+
+
