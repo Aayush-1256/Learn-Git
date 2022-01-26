@@ -49,6 +49,19 @@ To create a new branch we can use
 To change HEAD to different Branch
 "git checkout branch-name"
 
+To merge two branches
+like for ex you create a new branch Adding-Feature
+and u commit on this branch
+Now if you want to merge it with master branch we use
+we first use "git checkout master"
+then "git merge Adding-Feature(Name of branch to merge)"
+
+To create a pull request on any repo
+We first need to fork the repo
+Create a new branch on which we can work
+Do changes and commit them
+It will automatically as you to create a pull request for this branch on github site
+Remenber with one branch you can have one pull request
 
 
 
