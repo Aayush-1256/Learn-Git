@@ -7,6 +7,7 @@ instead of . we can also use file name we want to add
 git commit -m "Message" -> it is used to commit files to repo with a message
 
 
+After adding contents not on empty file 
 If we add(git add name.txt) a file we don't want we can use
 git restore --staged filename
 
