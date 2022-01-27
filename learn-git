@@ -1,3 +1,6 @@
+Commands Cheat Sheet Link
+https://education.github.com/git-cheat-sheet-education.pdf
+
 git status -> Tells us about the untracked files
 
 git add . -> tells git to (make file tracked)add all files
@@ -95,7 +98,10 @@ Enter commit message
 Again ":x" enter
 Commits merged
 
-
+Merge Conflicts
+When two or more people make changes to same line of code in same file
+Creates a Pull request and on accepting the pull request git will some conflicts like you have different code for same line should i be using this or that..
+Than you should resolve this manually..
 
 
 
