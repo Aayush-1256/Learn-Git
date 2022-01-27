@@ -80,6 +80,27 @@ To make them in sync we use
 "git pull upstream(link-name-main-repo) master(our-master-branch)"
 
 
+Squashing multiple commits to one single commit
+Suppose you created multiple files and commited them multiple times on your local
+But before updating the remote repo you want to squeeze them in one or two commits
+"git rebase -i commitCode "  
+-i for interactive
+commitCode of that commit above which you want to squeeze them in this commit
+In interactive rebase
+'pick' will be used to pick commit
+'s' will be used to squash commit to prev pick commit
+Post this use ":x" enter
+Here before #Please enter commit message
+Enter commit message
+Again ":x" enter
+Commits merged
+
+
+
+
+
+
+
 
 
 
